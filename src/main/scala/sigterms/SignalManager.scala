@@ -141,7 +141,7 @@ trait Shield {
   *  Sun/Oracle says sun.misc.* is unsupported and therefore so is all
   *  of this.  Simple examples:
   *  {{{
-      val manager = scala.tools.util.SignalManager // or you could make your own
+      val manager = sigterms.SignalManager // or you could make your own
       // Assignment clears any old handlers; += chains them.
       manager("HUP") = println("HUP 1!")
       manager("HUP") += println("HUP 2!")
