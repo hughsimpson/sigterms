@@ -1,8 +1,12 @@
 example usage:
 
+Include the dependency in your `build.sbt` / `Build.scala` / what-have-you
 ```
-  libraryDependencies += "org.hughsimpson" %% "sigterms" % "0.1.0"
+  resolvers += "silasmariner" at "http://dl.bintray.com/hughsimpson/maven"
+  ...
+  libraryDependencies += "org.silasmariner" %% "sigterms" % "0.1.0"
 ```
+Import'n'use
 
 ```
   import sigterms.SignalManager
