@@ -1,3 +1,5 @@
+Stolen wholesale from Paul Phillips' code (http://xuwei-k.github.io/scala-compiler-sxr/scala-compiler-2.9.1/scala/tools/util/SignalManager.scala.html and related files), with minor modifications made to make it compatible with scala 2.11 (mostly involving import statemts)
+
 example usage:
 
 Include the dependency in your `build.sbt` / `Build.scala` / what-have-you
